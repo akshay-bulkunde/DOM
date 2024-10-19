@@ -36,7 +36,7 @@ container.addEventListener('click' , function(event) {
     }
 
     else if(event.target.classList.contains('fa-angle-right')){
-        let listItems = document.querySelectorAll('.left-check-item')
+        let listItems = document.querySelectorAll('.left-list input[type = "checkbox"]:checked')
         listItems.forEach((item) => {
             item.classList.remove('left-check-item')
             item.classList.add('right-check-item')

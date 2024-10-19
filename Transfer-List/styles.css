@@ -25,7 +25,7 @@ body {
     padding: 15px;
     
 }
-.check-item {
+.left-check-item , .right-check-item{
     margin-top: 10px;
 }
 
