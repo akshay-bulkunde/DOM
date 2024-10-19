@@ -19,6 +19,17 @@
 input {
     padding: 15px 30px 15px 5px;
     font-size: medium;
-    color: gray;
+    color: black;
     margin-bottom: 30px;
 }
+
+
+ul li{
+    font-size: 25px;
+}
+
+ul .fa-pencil, .fa-floppy-disk, .fa-trash{
+   padding: 20px;
+}
+
+
